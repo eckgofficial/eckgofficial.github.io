@@ -1,0 +1,17 @@
+*{
+    margin: 20px;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(165, 207, 207);
+}
+
+h1{
+    background-color: aliceblue;
+}
+
+p{
+    margin-bottom:60px ;
+}
