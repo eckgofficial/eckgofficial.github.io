@@ -158,59 +158,12 @@ p{
     height: 200px; position: absolute;
 }
 
-@media (max-width:1325px){
+@media (max-width:600px){
     h1{
-        font-size: 40px;
-        margin-left:250px;
+        font-size: 20px;
+        margin-left:130px;
         position:absolute;
-   }
-
-   p{
-    font-size: 25px;
-    margin-top: 140px;
-   }
-
-   .navbutton {
-    padding: 35px;
-    padding-left: 100vh;
-
-}
-
-.navbutton a{
-    font-size: 30px;
-    padding: 2px;
-    margin-left: 5px;
-    
-    
-}
-
-.QA{
-    margin-top: 120px;
-}
-
-}
-
-@media (max-width:1284px){
-    h1{
-        font-size: 35px;
-        margin-left:230px;
-        position:absolute;
-   }
-
-   .navbutton {
-    padding: 30px;
-    padding-left: 90vh;
-
-}
-
-}
-
-@media (max-width:1193px){
-    h1{
-        font-size: 35px;
-        margin-left:220px;
-        position:absolute;
-        margin-top: 20px;
+        margin-top: 10px;
    }
 
    p{
@@ -219,68 +172,14 @@ p{
    }
 
    .navbutton {
-    padding: 25px;
-    padding-left: 87vh;
-
-}
-
-.navbutton a{
-    font-size: 25px;
-    padding: 2px;
-    margin-left: 5px;
-    
-    
-}
-
-.QA{
-    margin-top: 120px;
-}
-
-.QA .H{
-    padding: 60px;
-    padding-inline: 60px;
-    margin: 2px;
-}
-    
-.QA .Q{
-    padding: 60px;
-    padding-inline: 60px;
-    margin: 2px;
-    
-}
-
-.QA .A{
-    padding: 60px;
-    margin: 2px;
-}
-.QA .C{
-    padding: 60px;
-    margin: 2px;
-}
-
-}
-
-@media (max-width:500px){
-    h1{
-        font-size: 12px;
-        margin-left:100px;
-        position:absolute;
-        margin-top: 20px;
-   }
-
-   p{
-    font-size: 15px;
-    margin-top: 140px;
-   }
-
-   .navbutton {
     padding: 15px;
     padding-left: 30vh;
+    padding-top: 50px;
 
 }
 
 .navbutton a{
-    font-size:8px;
+    font-size: 15px;
     padding: 2px;
     margin-left: 5px;
     
@@ -291,212 +190,41 @@ p{
     margin-top: 120px;
 }
 
+.main img{
+    height: 80px; position: absolute;
+}
+
 .QA .H{
-    padding: 30px;
-    padding-inline: 30px;
+    font-size: large;
+    padding: 25px;
+    padding-inline: 25px;
+    background: rgb(54, 240, 131);
     margin: 2px;
 }
     
 .QA .Q{
-    padding:30px;
-    padding-inline: 30px;
+    font-size: large;
+    padding: 25px;
+    padding-inline: 25px;
+    background: rgb(54, 240, 131);
     margin: 2px;
     
 }
 
 .QA .A{
-    padding: 30px;
+    font-size: large;
+    padding: 25px;
+    background: rgb(54, 240, 131);
     margin: 2px;
 }
 .QA .C{
-    padding: 30px;
+    font-size: large;
+    padding: 25px;
+    background: rgb(54, 240, 131);
     margin: 2px;
 }
-.main img{
-    height: 100px; position: absolute;
-}
-
 
 }
-
-@media (max-width:427px){
-    h1{
-        font-size: 12px;
-        margin-left:90px;
-        position:absolute;
-        margin-top: 20px;
-   }
-
-   p{
-    font-size: 15px;
-    margin-top: 140px;
-   }
-
-   .navbutton {
-    padding: 15px;
-    padding-left: 28vh;
-
-}
-
-.navbutton a{
-    font-size:8px;
-    padding: 2px;
-    margin-left: 5px;
-    
-    
-}
-
-.QA{
-    margin-top: 120px;
-}
-
-.QA .H{
-    padding: 20px;
-    padding-inline: 20px;
-    margin: 2px;
-}
-    
-.QA .Q{
-    padding:20px;
-    padding-inline: 20px;
-    margin: 2px;
-    
-}
-
-.QA .A{
-    padding: 20px;
-    margin: 2px;
-}
-.QA .C{
-    padding: 20px;
-    margin: 2px;
-}
-.main img{
-    height: 100px; position: absolute;
-}
-
-
-}
-
-@media (max-width:318px){
-    h1{
-        font-size: 10px;
-        margin-left:50px;
-        position:absolute;
-        margin-top: 20px;
-   }
-
-   p{
-    font-size: 15px;
-    margin-top: 80px;
-   }
-
-   .navbutton {
-    padding: 15px;
-    padding-left: 29vh;
-
-}
-
-.navbutton a{
-    font-size:6px;
-    padding: 2px;
-    margin-left: 2px;
-    
-    
-}
-
-.QA{
-    margin-top: 80px;
-}
-
-.QA .H{
-    padding: 8px;
-    padding-inline: 8px;
-    margin: 2px;
-}
-    
-.QA .Q{
-    padding:8px;
-    padding-inline: 8px;
-    margin: 2px;
-    
-}
-
-.QA .A{
-    padding: 8px;
-    margin: 2px;
-}
-.QA .C{
-    padding: 8px;
-    margin: 2px;
-}
-.main img{
-    height: 50px; position: absolute;
-}
-
-
-}
-
-@media (max-width:310px){
-    h1{
-        font-size: 10px;
-        margin-left:50px;
-        position:absolute;
-        margin-top: 20px;
-   }
-
-   p{
-    font-size: 15px;
-    margin-top: 80px;
-   }
-
-   .navbutton {
-    padding: 15px;
-    padding-top: 25px;
-    padding-left: 25vh;
-
-}
-
-.navbutton a{
-    font-size:8px;
-    padding: 2px;
-    margin-left: 2px;
-    
-    
-}
-
-.QA{
-    margin-top: 80px;
-}
-
-.QA .H{
-    padding: 8px;
-    padding-inline: 8px;
-    margin: 2px;
-}
-    
-.QA .Q{
-    padding:8px;
-    padding-inline: 8px;
-    margin: 2px;
-    
-}
-
-.QA .A{
-    padding: 8px;
-    margin: 2px;
-}
-.QA .C{
-    padding: 8px;
-    margin: 2px;
-}
-.main img{
-    height: 50px; position: absolute;
-}
-
-
-}
-
 
 
 
