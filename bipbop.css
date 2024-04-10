@@ -155,7 +155,7 @@ p{
     height: 200px; position: absolute;
 }
 
-@media (max-width:600px){
+@media only screen and (max-width:600px){
     h1{
         font-size: 20px;
         margin-left:130px;
@@ -222,7 +222,7 @@ p{
 }
 
 }
-@media (max-width:333px){
+@media only screen and (max-width:333px){
     h1{
         font-size: 20px;
         margin-left:50px;
