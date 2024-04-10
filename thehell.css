@@ -1,0 +1,13 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    background: linear-gradient(to top, #00cc00 0%, #009999 100%);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}

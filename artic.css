@@ -53,11 +53,17 @@ body{
 /*--Navigations--*/
 
 }
-.navbutton {
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 1px;
+    display: flex;
     background: linear-gradient(to top, #00cc00 0%, #009999 100%);
-    padding: 40px;
-    padding-left: 135vh;
-
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;  
 }
 
 .navbutton a{
@@ -88,9 +94,15 @@ body{
 
 h1{
     text-align: center;
-    font-size: 90px;
-    margin-top: 100px;
     color: white;
+    position: absolute; 
+    margin-left: 400px;  
+    font-size: 50px;
+}
+
+.main img{
+    margin-top: 50px;
+    height: 140px; position: absolute;
 }
 
 
@@ -115,6 +127,10 @@ h1{
 }
 
 /*--Article Section---*/
+}
+
+.Articles{
+    margin-top:100px;
 }
 
 .container{
