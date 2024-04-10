@@ -5,13 +5,15 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
+    height: -webkit-fill-available;
    
 }
 
+html{
+    height: -webkit-fill-available;
+}
+
 .main{
-    width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -100,34 +102,17 @@ h1{
     font-size: 50px;
 }
 
-.main img{
+
+/*--logo--*/
+
+.header img{
     margin-top: 50px;
     height: 140px; position: absolute;
 }
 
 
-@media screen and (max-width:500px){
-    h1{
-        font-size: 30px;
-     
-   }
-
-   .navbutton {
-    padding: 10px;
-    padding-left: 30vh;
-
-}
-
-.navbutton a{
-    font-size: 10px;
-    padding: 2px;
-    margin-left: 5px;
-    
-    
-}
-
 /*--Article Section---*/
-}
+
 
 .Articles{
     margin-top:100px;
@@ -154,11 +139,104 @@ h1{
     color: rgb(0, 0, 0);
 }
 
-.image img{
+
+/*--artic--*/
+.laman .image img{
     height: 120px;
-    width: 300px;
+    width: 100%;
 }
 
 
+/*---Min---*/
+@media  (min-width:1024px){
+    h1{
+        font-size: 40px;
+        margin-left:180px;
+        position:absolute;
+        margin-top: 15px;
+   }
 
 
+
+.navbutton a{
+    font-size: 25px;
+    padding: 2px;
+    margin-left: 15px;
+    
+    
+}
+}
+
+@media  (min-width:601px){
+    h1{
+        font-size: 30px;
+        margin-left:100px;
+        position:absolute;
+        margin-top: 10px;
+   }
+   .header img{
+    margin-top: 50px;
+    height: 80px; position: absolute;
+}
+ 
+
+.navbutton a{
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 5px;
+    
+    
+}
+}
+/*---Max---*/
+@media  (max-width:425px){
+    .header{
+        padding: 5px 1px;
+    }
+    h1{
+        margin-top: 0px;
+        font-size: 17px;
+        margin-left: 80px;
+    }
+    .header img{
+        margin-top: 10px;
+        height: 80px; position: absolute;
+    }
+    
+    
+    p{
+      font-size: 15px;
+    }
+    .navbutton a{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .navbutton{
+       padding-top: 50px;
+       padding-right: 5vh;
+    }
+
+    .laman{
+        background-color: rgb(255, 255, 255);
+        height: 200px;
+        width: 150px;
+        margin: 10px;
+        color: white;
+    }
+    .laman .image img{
+        height: 60px;
+        width: 100%;
+    }
+    .image{
+        font-size: 8px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    p{
+        font-size: 8px;
+    }
+}

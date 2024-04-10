@@ -90,7 +90,7 @@ html{
 }
 
 
-
+/*--btns--*/
 
 .QA{
     justify-content: center;
@@ -158,11 +158,13 @@ p{
      margin-left: 10%;
      margin-right: 10%;
 }
-
+/*--logo--*/
 .main img{
     margin-top: 50px;
     height: 140px; position: absolute;
 }
+
+/*---Max---*/
 
 @media  (max-width:600px){
     h1{
@@ -240,6 +242,7 @@ p{
     }
     .navbutton a{
         font-size: 12px; 
+        margin-left: 15px;
     }
     .navbutton{
        padding-top: 50px;
@@ -267,9 +270,6 @@ p{
     .QA .C{
         padding: 20px; 
     }
-    
-
-    
 
 }
 @media  (max-width:375px){
@@ -290,6 +290,106 @@ p{
         padding: 12px; 
     }
     
+/*---Min---*/
+
+}
+
+@media  (min-width:601px){
+    h1{
+        font-size: 20px;
+        margin-left:100px;
+        position:absolute;
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 20px;
+    margin-top: 140px;
+   }
 
 
+.navbutton a{
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 5px;
+    
+    
+}
+.main img{
+    margin-top: 10px;
+    height: 80px; position: absolute;
+}
+
+
+.QA{
+    margin-top: 120px;
+}
+
+
+.QA .H{
+    padding: 30px;
+    padding-inline: 30px;
+}
+    
+.QA .Q{
+    padding: 30px;
+    padding-inline: 30px;
+}
+
+.QA .A{
+    padding: 30px;
+}
+.QA .C{
+    padding: 30px;
+}
+}
+
+@media  (min-width:1024px){
+    h1{
+        font-size: 30px;
+        margin-left:130px;
+        position:absolute;
+        margin-top: 15px;
+   }
+
+   p{
+    font-size: 25px;
+    margin-top: 250px;
+   }
+
+
+.navbutton a{
+    font-size: 25px;
+    padding: 2px;
+    margin-left: 15px;
+    
+    
+}
+.main img{
+    margin-top: 40px;
+    height: 120px; position: absolute;
+}
+
+
+.QA{
+    margin-top: 20vh;
+}
+
+
+.QA .H{
+    padding: 80px;
+    padding-inline: 80px;
+}
+    
+.QA .Q{
+    padding: 80px;
+    padding-inline: 80px;
+}
+
+.QA .A{
+    padding: 80px;
+}
+.QA .C{
+    padding: 80px;
+}
 }
