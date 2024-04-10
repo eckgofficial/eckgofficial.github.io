@@ -393,9 +393,8 @@ p{
     padding: 80px;
 }
 }
-@media  (max-height:770px){
+@media   (max-height:770px){
    p{
-    font-size: 25px;
     margin-top: 120px;
    }
 

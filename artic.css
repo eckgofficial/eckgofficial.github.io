@@ -241,7 +241,7 @@ h1{
     }
 }
 
-@media  (max-height:770px){
+@media (max-height:770px){
     .laman{
         background-color: rgb(255, 255, 255);
         height: 200px;
