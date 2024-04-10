@@ -272,3 +272,24 @@ p{
     
 
 }
+@media  (max-width:375px){
+    .QA .H{
+        padding: 12px;
+        padding-inline: 12px;
+    }
+        
+    .QA .Q{
+        padding: 12px;
+        padding-inline: 12px;  
+    }
+    
+    .QA .A{
+        padding: 12px;
+    }
+    .QA .C{
+        padding: 12px; 
+    }
+    
+
+
+}
