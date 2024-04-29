@@ -7,6 +7,8 @@ body{
     margin: 0;
     padding: 0;
     height: -webkit-fill-available;
+    background-image:url(ewaste1.jpg);
+    background-size:cover;
    
 }
 
@@ -156,13 +158,13 @@ h1{
     font-size: 40px;
     margin-bottom: 20px;
     margin-top: 40px;
-    color: #2b2727;
+    color: white;
     font-weight: 500;
 }
 .about-us p{
     font-size: 20px;
     line-height: 1.8;
-    color: #1f1f1f;
+    color: white;
     margin-bottom: 40px;
     font-weight: 600;
 }
@@ -178,8 +180,8 @@ h1{
     text-align: center;
     border-radius: 50%;
     margin-right: 10px;
-    color: #fff;
-    background-color: #333;
+    color: black;
+    background-color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     transition: all 0.4s ease;
 }
@@ -189,14 +191,14 @@ h1{
 
 .btn{
     text-decoration: none;
-    color: #fff;
+    color: black;
     display: inline-block;
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 5px;
-    background-color: #333;
+    background-color: white;
     transition: all 0.4s ease;
 }
 .btn:hover{
