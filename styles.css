@@ -1,87 +1,174 @@
-body,html{
-    margin: 0;
+*{
     padding: 0;
-    width: 100%;
-    height: 100vh;
-    font-family: sans-serif;
-}
-.Section_top{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
-    animation: change 15s infinite ease-in-out;
-}
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-
-}
-.content h1{
-    color: #fff;
-    font-size: 60px;
-    letter-spacing: 15px;
-}
-.content h1 span{
-    color: #111;
-}
-.content a{
-    background: #85c1ee;
-    padding: 10px 24px;
+    margin: 0;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 20px;
-}
-.content a:hover{
-    background: #0e8803;
-    color: #fff;
-}
-@keyframes change{
-    0%
-    {
-        background-image: url(ewaste1.jpg);
-    }
-    20%
-    {
-        background-image: url(ewaste2.jpg);
-    }
-    40%
-    {
-        background-image: url(ewaste3.jpg);
-    }
-    60%
-    {
-        background-image: url(ewaste4.jpg);
-    }
-    80%
-    {
-        background-image: url(ewaste2.jpg);
-    }
-    100%
-    {
-        background-image: url(ewaste3.jpg);
-    }
-}
-.search{
-        display: flex;
-        width: max-content;
-}
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+    background-image:url("IMAGES/bg.png");  
+    background-size: cover;
+    background-position: center;
+  }
+  nav{
+    background-image: url("IMAGES/navbg.png");
+    height: 80px;
+    width: 100%;
+   
 
+  }
+  label.logo{
+    padding: 0px;
+    height:10px ;
+    width:10px ;
+  }
+  label.logo img{
+    height: 180px;
+    width: 180px;
+    margin-top: 15px;
+    margin-left: 15px;
 
-@media screen and (max-width:500px){
-    .content h1{
-        color: #fff;
-        font-size: 30px;
-        letter-spacing: 15px;
-        max-width: 100%;
-     
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+  }
+  nav ul li a{
+    color: rgb(1, 160, 99);
+    font-size: 17px;
+    padding: 25px 15px 15px 15px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background: white;
+  }
+  a.active,a:hover{
+    background: rgb(1, 160, 99);
+    color: white;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  /* INTRO*/
+  .ewastetitle{
+    margin-top: 30px;
+
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+  .ewastetitle h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'archivo-black', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+  .h{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 5px;
+    background-color: white;
+  }
+
+  .ewastetitle .description {
+    margin-top: 15px;
+    background: linear-gradient(to right, rgba(0, 153, 204, 0.4) 0%, rgba(0, 255, 153, 0.4) 100%);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 40px 35px 220px 35px;
+    border-radius: 50px;
+    
+   }
+   .description p{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Arial, sans-serif;;
+
+   }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
     }
-}
+    label.logo img{
+      height: 100px;
+      width: 100px;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    
+    .ewastetitle h1{
+      font-size: 30px;
+    }
+    .h{
+      width:50%;
+    }
+  
+    .ewastetitle .description {
+      margin-top: 15px;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 20px 35px 100px 35px;
+      
+     }
+     .description p{
+      font-size: 15px;
+  
+     }
+    
+  }
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
